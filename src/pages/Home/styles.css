@@ -1,0 +1,40 @@
+    .container-welcome{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .container-welcome img{
+        max-width: 645px;
+        border-radius: 10px;
+        max-height: 400px;
+    }
+    .container-welcome h1{
+        color: #1A374C;
+    }
+    .container-welcome a{
+        text-decoration: revert;
+    }
+@media (min-width: 700px) and (max-width: 1024px){
+    .container-welcome img {
+        max-width: 571px;
+        margin: auto;
+        padding-left: 17%;
+    }
+    .container-welcome h1{
+        position: relative;
+        left: 18%;
+        font-size: 18px;
+    }
+  
+}
+@media screen and (max-width: 700px){
+    .container-welcome img {
+        max-width: 300px;
+    }
+    .container-welcome h1{
+        color: #1A374C;
+        font-size: 15px;
+        margin-left: 18px;
+    }
+}

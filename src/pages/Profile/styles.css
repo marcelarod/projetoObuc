@@ -1,0 +1,76 @@
+
+.container-profile{
+    display: flex;
+    background-color: #f8f8f8;
+    border-radius: 5px;
+    padding: .8em;
+    align-items: center;
+    margin-bottom: 1em;
+  }
+  
+    .label-avatar{
+        width: 280px;
+        height: 280px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        cursor: pointer;
+  
+  }
+  .form-profile{
+        display: flex;
+        flex-direction: column; 
+        width: 100%;
+        margin: auto;
+        position: relative;
+        left: 30%;
+
+    }
+  
+  .label-avatar span{
+        z-index: 99;
+        position: absolute;
+        opacity: 0.7;
+        transition: all .5s;
+  }
+  
+  .form-profile img{
+        margin-bottom: 1em;
+        border-radius: 50%;
+        object-fit: cover;
+  }
+  
+  .form-profile label{
+        margin-bottom: .5em;
+        font-size: 1.4em;
+  }
+  
+  .form-profile input, textarea, select{
+        max-width: 400px;
+  }
+  
+  .form-profile button{
+        max-width: 408px;
+        margin-top: 10px;
+        background: #1E4159;
+        color: #fff;
+  }
+  
+  @media screen and (max-width: 700px){
+    .form-profile {
+        width: 23%;
+        position: relative;
+        right: 60%;
+      }
+    
+  .form-profile input, textarea, select {
+        width: 226px;
+  }
+ 
+    .container-profile {
+        position: relative;
+     right: 50%;
+  }
+}
+  
